@@ -1,0 +1,20 @@
+[debug] [2022-03-18T10:02:44.607Z] ----------------------------------------------------------------------
+[debug] [2022-03-18T10:02:44.611Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2022-03-18T10:02:44.612Z] CLI Version:   10.2.1
+[debug] [2022-03-18T10:02:44.612Z] Platform:      darwin
+[debug] [2022-03-18T10:02:44.612Z] Node Version:  v17.6.0
+[debug] [2022-03-18T10:02:44.628Z] Time:          Fri Mar 18 2022 15:32:44 GMT+0530 (India Standard Time)
+[debug] [2022-03-18T10:02:44.629Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-18T10:02:44.713Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-18T10:02:44.714Z] > authorizing via signed-in user (yoyoabhishek7966@gmail.com)
+[debug] [2022-03-18T10:02:44.715Z] [iam] checking project instagram-clone-ff403 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-03-18T10:02:44.718Z] > refreshing access token with scopes: []
+[debug] [2022-03-18T10:02:44.719Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-18T10:04:00.248Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2022-03-18T10:04:00.249Z] > refreshing access token with scopes: []
+[debug] [2022-03-18T10:04:00.250Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
